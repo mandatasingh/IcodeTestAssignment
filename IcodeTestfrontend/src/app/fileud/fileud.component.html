@@ -1,0 +1,11 @@
+<div>
+    <button (click)="downloadTemplate()">Download Excel Template</button>
+  </div>
+  <div>
+    <input type="file" (change)="onFileChange($event)" />
+    <button (click)="uploadTemplate()">Upload Excel File</button><br/><br/>
+
+    <button (click)="showData()">Show Data</button>
+
+    <span style="color: red;">{{ans}}</span>
+  </div>
